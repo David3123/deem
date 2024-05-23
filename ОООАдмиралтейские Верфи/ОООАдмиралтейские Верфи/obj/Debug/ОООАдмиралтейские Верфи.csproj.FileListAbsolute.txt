@@ -1,0 +1,49 @@
+C:\Users\stud\Desktop\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\bin\Debug\ОООАдмиралтейские Верфи.exe.config
+C:\Users\stud\Desktop\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\bin\Debug\ОООАдмиралтейские Верфи.exe
+C:\Users\stud\Desktop\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\bin\Debug\ОООАдмиралтейские Верфи.pdb
+C:\Users\stud\Desktop\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\ОООАдмиралтейские Верфи.csproj.AssemblyReference.cache
+C:\Users\stud\Desktop\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\ОООАдмиралтейские Верфи.csproj.SuggestedBindingRedirects.cache
+C:\Users\stud\Desktop\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\MainWindow.g.cs
+C:\Users\stud\Desktop\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\App.g.cs
+C:\Users\stud\Desktop\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\ОООАдмиралтейские Верфи_MarkupCompile.cache
+C:\Users\stud\Desktop\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\ОООАдмиралтейские Верфи_MarkupCompile.lref
+C:\Users\stud\Desktop\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\MainWindow.baml
+C:\Users\stud\Desktop\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\ОООАдмиралтейские Верфи.g.resources
+C:\Users\stud\Desktop\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\ОООАдмиралтейские_Верфи.Properties.Resources.resources
+C:\Users\stud\Desktop\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\ОООАдмиралтейские Верфи.csproj.GenerateResource.cache
+C:\Users\stud\Desktop\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\ОООАдмиралтейские Верфи.csproj.CoreCompileInputs.cache
+C:\Users\stud\Desktop\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\ОООАдмиралтейские Верфи.exe
+C:\Users\stud\Desktop\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\ОООАдмиралтейские Верфи.pdb
+C:\Users\stud\Desktop\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\bin\Debug\EntityFramework.dll
+C:\Users\stud\Desktop\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\stud\Desktop\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\bin\Debug\EntityFramework.xml
+C:\Users\stud\Desktop\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\stud\Desktop\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\ОООАдмиралтейские Верфи_Content.g.cs
+C:\Users\stud\Desktop\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\ОООАдмиралтейские Верфи.csproj.CopyComplete
+C:\Users\stud\Desktop\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\App.baml
+C:\Users\stud\Desktop\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\View\ViewRequest.g.cs
+C:\Users\stud\Desktop\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\View\ViewRequest.baml
+C:\Users\madam\Downloads\Telegram Desktop\Fedulova403\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\bin\Debug\ОООАдмиралтейские Верфи.exe.config
+C:\Users\madam\Downloads\Telegram Desktop\Fedulova403\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\bin\Debug\ОООАдмиралтейские Верфи.exe
+C:\Users\madam\Downloads\Telegram Desktop\Fedulova403\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\bin\Debug\ОООАдмиралтейские Верфи.pdb
+C:\Users\madam\Downloads\Telegram Desktop\Fedulova403\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\bin\Debug\EntityFramework.dll
+C:\Users\madam\Downloads\Telegram Desktop\Fedulova403\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\madam\Downloads\Telegram Desktop\Fedulova403\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\bin\Debug\EntityFramework.xml
+C:\Users\madam\Downloads\Telegram Desktop\Fedulova403\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\madam\Downloads\Telegram Desktop\Fedulova403\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\ОООАдмиралтейские Верфи.csproj.AssemblyReference.cache
+C:\Users\madam\Downloads\Telegram Desktop\Fedulova403\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\MainWindow.g.cs
+C:\Users\madam\Downloads\Telegram Desktop\Fedulova403\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\View\ViewRequest.g.cs
+C:\Users\madam\Downloads\Telegram Desktop\Fedulova403\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\App.g.cs
+C:\Users\madam\Downloads\Telegram Desktop\Fedulova403\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\ОООАдмиралтейские Верфи_Content.g.cs
+C:\Users\madam\Downloads\Telegram Desktop\Fedulova403\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\ОООАдмиралтейские Верфи_MarkupCompile.cache
+C:\Users\madam\Downloads\Telegram Desktop\Fedulova403\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\ОООАдмиралтейские Верфи_MarkupCompile.lref
+C:\Users\madam\Downloads\Telegram Desktop\Fedulova403\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\App.baml
+C:\Users\madam\Downloads\Telegram Desktop\Fedulova403\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\MainWindow.baml
+C:\Users\madam\Downloads\Telegram Desktop\Fedulova403\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\View\ViewRequest.baml
+C:\Users\madam\Downloads\Telegram Desktop\Fedulova403\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\ОООАдмиралтейские Верфи.g.resources
+C:\Users\madam\Downloads\Telegram Desktop\Fedulova403\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\ОООАдмиралтейские_Верфи.Properties.Resources.resources
+C:\Users\madam\Downloads\Telegram Desktop\Fedulova403\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\ОООАдмиралтейские Верфи.csproj.GenerateResource.cache
+C:\Users\madam\Downloads\Telegram Desktop\Fedulova403\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\ОООАдмиралтейские Верфи.csproj.CoreCompileInputs.cache
+C:\Users\madam\Downloads\Telegram Desktop\Fedulova403\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\ОООАдмир.AEFD9E76.Up2Date
+C:\Users\madam\Downloads\Telegram Desktop\Fedulova403\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\ОООАдмиралтейские Верфи.exe
+C:\Users\madam\Downloads\Telegram Desktop\Fedulova403\Fedulova403\ОООАдмиралтейские Верфи\ОООАдмиралтейские Верфи\obj\Debug\ОООАдмиралтейские Верфи.pdb

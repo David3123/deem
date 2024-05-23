@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\79217\\Desktop\\ttttt\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD79BD3B-41AD-4C55-8D77-4436FBEBFD5A}|ttttt\\ttttt.csproj|c:\\users\\79217\\desktop\\ttttt\\ttttt\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD79BD3B-41AD-4C55-8D77-4436FBEBFD5A}|ttttt\\ttttt.csproj|solutionrelative:ttttt\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD79BD3B-41AD-4C55-8D77-4436FBEBFD5A}|ttttt\\ttttt.csproj|c:\\users\\79217\\desktop\\ttttt\\ttttt\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD79BD3B-41AD-4C55-8D77-4436FBEBFD5A}|ttttt\\ttttt.csproj|solutionrelative:ttttt\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD79BD3B-41AD-4C55-8D77-4436FBEBFD5A}|ttttt\\ttttt.csproj|c:\\users\\79217\\desktop\\ttttt\\ttttt\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DD79BD3B-41AD-4C55-8D77-4436FBEBFD5A}|ttttt\\ttttt.csproj|solutionrelative:ttttt\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD79BD3B-41AD-4C55-8D77-4436FBEBFD5A}|ttttt\\ttttt.csproj|c:\\users\\79217\\desktop\\ttttt\\ttttt\\db_modle\\test123.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{DD79BD3B-41AD-4C55-8D77-4436FBEBFD5A}|ttttt\\ttttt.csproj|solutionrelative:ttttt\\db_modle\\test123.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\79217\\Desktop\\ttttt\\ttttt\\App.xaml.cs",
+              "RelativeDocumentMoniker": "ttttt\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\79217\\Desktop\\ttttt\\ttttt\\App.xaml.cs",
+              "RelativeToolTip": "ttttt\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T18:27:31.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "test123.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\79217\\Desktop\\ttttt\\ttttt\\DB_modle\\test123.edmx",
+              "RelativeDocumentMoniker": "ttttt\\DB_modle\\test123.edmx",
+              "ToolTip": "C:\\Users\\79217\\Desktop\\ttttt\\ttttt\\DB_modle\\test123.edmx [Diagram1]",
+              "RelativeToolTip": "ttttt\\DB_modle\\test123.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-05-23T18:10:58.107Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\79217\\Desktop\\ttttt\\ttttt\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ttttt\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\79217\\Desktop\\ttttt\\ttttt\\MainWindow.xaml",
+              "RelativeToolTip": "ttttt\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-23T18:04:14.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\79217\\Desktop\\ttttt\\ttttt\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ttttt\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\79217\\Desktop\\ttttt\\ttttt\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ttttt\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T18:04:13.794Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

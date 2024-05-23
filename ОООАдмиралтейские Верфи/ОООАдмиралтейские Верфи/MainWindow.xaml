@@ -1,0 +1,89 @@
+﻿<Window x:Class="ОООАдмиралтейские_Верфи.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ОООАдмиралтейские_Верфи"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" MinHeight="450" MinWidth="800" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--Заголовок-->
+        <Grid Grid.Row="0" Background="#FFB9FDDE">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="95*"/>
+                <ColumnDefinition Width="468*"/>
+                <ColumnDefinition Width="188*"/>
+            </Grid.ColumnDefinitions>
+            <Image Grid.Column="0" Source="/Resources/Логотип.png"/>
+            <TextBlock Text="Список заявок на посещение" Grid.Column="2" HorizontalAlignment="Left" Margin="89,0,0,0" />
+            <Button x:Name="btn_exit" Content="Выход" Grid.Column="3" Click="btn_exit_Click" Margin="10,10,10,10"/>
+
+        </Grid>
+
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!--Таблица-->
+            <DataGrid Grid.Row="1" x:Name="dgRequest" AutoGenerateColumns="False" IsReadOnly="True">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ФИО посетителя" Width="2*" Binding="{Binding Visitor.VisitorFullName}"/>
+                    <DataGridTextColumn Header="Дата подачи" Width="*"  Binding="{Binding RequestDateAdd, StringFormat=dd:MM:yyyy}"/>
+                    <DataGridTextColumn Header="Подразделение" Width="2*"  Binding="{Binding Subdivision.SubdivisionName}"/>
+                    <DataGridTextColumn Header="Статус заявки" Width="*"  Binding="{Binding Status.StatusName}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <!--Фильтры и поиск-->
+            <StackPanel Orientation="Vertical" Grid.Column="1">
+                <TextBlock Text="Сортировка по дате"/>
+                <ComboBox x:Name="cbSort" SelectionChanged="cbSort_SelectionChanged">
+                    <ComboBoxItem Content="Без сортировки"/>
+                    <ComboBoxItem Content="По возрастанию"/>
+                    <ComboBoxItem Content="По убыванию"/>
+                </ComboBox>
+                <TextBlock Text="Фильтр по подразделениям"/>
+                <ComboBox x:Name="cbDivision" SelectionChanged="cbDivision_SelectionChanged">
+                </ComboBox>
+                <TextBlock Text="Фильтр по статусу"/>
+                <ComboBox x:Name="cbStatus" SelectionChanged="cbStatus_SelectionChanged">
+                </ComboBox>
+                <TextBlock Text="Поиск по ФИО"/>
+                <TextBox x:Name="tbFullName" TextChanged="tbFullName_TextChanged"/>
+            </StackPanel>
+        </Grid>
+
+
+        <!--<Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Content="Редактирование заявки" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1"/>
+            <Button Content="Регистрация заявки" HorizontalAlignment="Center" VerticalAlignment="Center" />
+            <Button Grid.Column="2" Content="Отчетность" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Grid>-->
+
+
+        <!--Кнопки управления-->
+        <StackPanel Orientation="Horizontal" Grid.Row="2">
+            <Button x:Name="btnRegistration" Content="Регистрация заявки" Click="btnRegistration_Click" />
+            <Button x:Name="btnEdit" Content="Редактирование заявки" />
+            <Button x:Name="btnReport" Content="Отчетность" />
+        </StackPanel>
+
+
+    </Grid>
+
+</Window>

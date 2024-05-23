@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f84d7b37aaee44a68a144a49a568f286" Name="Diagram1">
+        <EntityTypeShape EntityType="NSDrive.Attendance" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NSDrive.BlackList" Width="1.5" PointX="3" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="NSDrive.Employee" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NSDrive.Request" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NSDrive.Result" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="NSDrive.Status" Width="1.5" PointX="0.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NSDrive.Subdivision" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="NSDrive.Visitor" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <AssociationConnector Association="NSDrive.FK_Attendance_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="NSDrive.FK_Attendance_Request" ManuallyRouted="false" />
+        <AssociationConnector Association="NSDrive.FK_Attendance_Result" ManuallyRouted="false" />
+        <AssociationConnector Association="NSDrive.FK_BlackList_Visitor" ManuallyRouted="false" />
+        <AssociationConnector Association="NSDrive.FK_Employee_Subdivision" ManuallyRouted="false" />
+        <AssociationConnector Association="NSDrive.FK_Request_Status" ManuallyRouted="false" />
+        <AssociationConnector Association="NSDrive.FK_Request_Subdivision" ManuallyRouted="false" />
+        <AssociationConnector Association="NSDrive.FK_Request_Visitor" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

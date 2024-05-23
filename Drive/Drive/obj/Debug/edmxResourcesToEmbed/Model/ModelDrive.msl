@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище NSDriveContainer" CdmEntityContainer="DBDriveEntities">
+    <EntitySetMapping Name="Attendance">
+      <EntityTypeMapping TypeName="NSDrive.Attendance">
+        <MappingFragment StoreEntitySet="Attendance">
+          <ScalarProperty Name="AttendanceID" ColumnName="AttendanceID" />
+          <ScalarProperty Name="AttendanceEmployee" ColumnName="AttendanceEmployee" />
+          <ScalarProperty Name="AttendanceDate" ColumnName="AttendanceDate" />
+          <ScalarProperty Name="AttendanceTime" ColumnName="AttendanceTime" />
+          <ScalarProperty Name="AttendanceDuration" ColumnName="AttendanceDuration" />
+          <ScalarProperty Name="AttendanceResult" ColumnName="AttendanceResult" />
+          <ScalarProperty Name="AttendanceComment" ColumnName="AttendanceComment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BlackList">
+      <EntityTypeMapping TypeName="NSDrive.BlackList">
+        <MappingFragment StoreEntitySet="BlackList">
+          <ScalarProperty Name="BlackListID" ColumnName="BlackListID" />
+          <ScalarProperty Name="BlackListDescription" ColumnName="BlackListDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employee">
+      <EntityTypeMapping TypeName="NSDrive.Employee">
+        <MappingFragment StoreEntitySet="Employee">
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="EmployeeName" ColumnName="EmployeeName" />
+          <ScalarProperty Name="EmployeeSubdivision" ColumnName="EmployeeSubdivision" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Request">
+      <EntityTypeMapping TypeName="NSDrive.Request">
+        <MappingFragment StoreEntitySet="Request">
+          <ScalarProperty Name="RequestID" ColumnName="RequestID" />
+          <ScalarProperty Name="RequestDateAdd" ColumnName="RequestDateAdd" />
+          <ScalarProperty Name="RequestDateStart" ColumnName="RequestDateStart" />
+          <ScalarProperty Name="RequestDateEnd" ColumnName="RequestDateEnd" />
+          <ScalarProperty Name="RequestSubdivision" ColumnName="RequestSubdivision" />
+          <ScalarProperty Name="RequestPurpose" ColumnName="RequestPurpose" />
+          <ScalarProperty Name="RequestVisitor" ColumnName="RequestVisitor" />
+          <ScalarProperty Name="RequestStatus" ColumnName="RequestStatus" />
+          <ScalarProperty Name="RequestReason" ColumnName="RequestReason" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Result">
+      <EntityTypeMapping TypeName="NSDrive.Result">
+        <MappingFragment StoreEntitySet="Result">
+          <ScalarProperty Name="ResultID" ColumnName="ResultID" />
+          <ScalarProperty Name="ResultName" ColumnName="ResultName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Status">
+      <EntityTypeMapping TypeName="NSDrive.Status">
+        <MappingFragment StoreEntitySet="Status">
+          <ScalarProperty Name="StatusID" ColumnName="StatusID" />
+          <ScalarProperty Name="StatusName" ColumnName="StatusName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Subdivision">
+      <EntityTypeMapping TypeName="NSDrive.Subdivision">
+        <MappingFragment StoreEntitySet="Subdivision">
+          <ScalarProperty Name="SubdivisionID" ColumnName="SubdivisionID" />
+          <ScalarProperty Name="SubdivisionName" ColumnName="SubdivisionName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Visitor">
+      <EntityTypeMapping TypeName="NSDrive.Visitor">
+        <MappingFragment StoreEntitySet="Visitor">
+          <ScalarProperty Name="VisitorID" ColumnName="VisitorID" />
+          <ScalarProperty Name="VisitorFullName" ColumnName="VisitorFullName" />
+          <ScalarProperty Name="VisitorPhone" ColumnName="VisitorPhone" />
+          <ScalarProperty Name="VisitorEmail" ColumnName="VisitorEmail" />
+          <ScalarProperty Name="VisitorOrganization" ColumnName="VisitorOrganization" />
+          <ScalarProperty Name="VisitorNote" ColumnName="VisitorNote" />
+          <ScalarProperty Name="VisitorBirthday" ColumnName="VisitorBirthday" />
+          <ScalarProperty Name="VisitorPassportNumber" ColumnName="VisitorPassportNumber" />
+          <ScalarProperty Name="VisitorPassportSeries" ColumnName="VisitorPassportSeries" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

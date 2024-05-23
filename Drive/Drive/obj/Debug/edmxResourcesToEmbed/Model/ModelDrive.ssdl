@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Хранилище NSDrive" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Attendance">
+    <Key>
+      <PropertyRef Name="AttendanceID" />
+    </Key>
+    <Property Name="AttendanceID" Type="int" Nullable="false" />
+    <Property Name="AttendanceEmployee" Type="int" Nullable="false" />
+    <Property Name="AttendanceDate" Type="date" Nullable="false" />
+    <Property Name="AttendanceTime" Type="time" Precision="0" Nullable="false" />
+    <Property Name="AttendanceDuration" Type="int" Nullable="false" />
+    <Property Name="AttendanceResult" Type="int" Nullable="false" />
+    <Property Name="AttendanceComment" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="BlackList">
+    <Key>
+      <PropertyRef Name="BlackListID" />
+    </Key>
+    <Property Name="BlackListID" Type="int" Nullable="false" />
+    <Property Name="BlackListDescription" Type="nvarchar" MaxLength="150" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="EmployeeID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EmployeeName" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="EmployeeSubdivision" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Request">
+    <Key>
+      <PropertyRef Name="RequestID" />
+    </Key>
+    <Property Name="RequestID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="RequestDateAdd" Type="date" Nullable="false" />
+    <Property Name="RequestDateStart" Type="date" Nullable="false" />
+    <Property Name="RequestDateEnd" Type="date" Nullable="false" />
+    <Property Name="RequestSubdivision" Type="int" Nullable="false" />
+    <Property Name="RequestPurpose" Type="nvarchar" MaxLength="150" />
+    <Property Name="RequestVisitor" Type="int" Nullable="false" />
+    <Property Name="RequestStatus" Type="int" Nullable="false" />
+    <Property Name="RequestReason" Type="nvarchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="Result">
+    <Key>
+      <PropertyRef Name="ResultID" />
+    </Key>
+    <Property Name="ResultID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ResultName" Type="nvarchar" MaxLength="150" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Status">
+    <Key>
+      <PropertyRef Name="StatusID" />
+    </Key>
+    <Property Name="StatusID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StatusName" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Subdivision">
+    <Key>
+      <PropertyRef Name="SubdivisionID" />
+    </Key>
+    <Property Name="SubdivisionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SubdivisionName" Type="nvarchar" MaxLength="150" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Visitor">
+    <Key>
+      <PropertyRef Name="VisitorID" />
+    </Key>
+    <Property Name="VisitorID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="VisitorFullName" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="VisitorPhone" Type="char" MaxLength="19" Nullable="false" />
+    <Property Name="VisitorEmail" Type="nvarchar" MaxLength="150" Nullable="false" />
+    <Property Name="VisitorOrganization" Type="nvarchar" MaxLength="150" />
+    <Property Name="VisitorNote" Type="nvarchar" MaxLength="150" />
+    <Property Name="VisitorBirthday" Type="date" Nullable="false" />
+    <Property Name="VisitorPassportNumber" Type="int" Nullable="false" />
+    <Property Name="VisitorPassportSeries" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Attendance_Employee">
+    <End Role="Employee" Type="Self.Employee" Multiplicity="1" />
+    <End Role="Attendance" Type="Self.Attendance" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Employee">
+        <PropertyRef Name="EmployeeID" />
+      </Principal>
+      <Dependent Role="Attendance">
+        <PropertyRef Name="AttendanceEmployee" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Attendance_Request">
+    <End Role="Request" Type="Self.Request" Multiplicity="1" />
+    <End Role="Attendance" Type="Self.Attendance" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Request">
+        <PropertyRef Name="RequestID" />
+      </Principal>
+      <Dependent Role="Attendance">
+        <PropertyRef Name="AttendanceID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Attendance_Result">
+    <End Role="Result" Type="Self.Result" Multiplicity="1" />
+    <End Role="Attendance" Type="Self.Attendance" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Result">
+        <PropertyRef Name="ResultID" />
+      </Principal>
+      <Dependent Role="Attendance">
+        <PropertyRef Name="AttendanceResult" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BlackList_Visitor">
+    <End Role="Visitor" Type="Self.Visitor" Multiplicity="1" />
+    <End Role="BlackList" Type="Self.BlackList" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Visitor">
+        <PropertyRef Name="VisitorID" />
+      </Principal>
+      <Dependent Role="BlackList">
+        <PropertyRef Name="BlackListID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Employee_Subdivision">
+    <End Role="Subdivision" Type="Self.Subdivision" Multiplicity="1" />
+    <End Role="Employee" Type="Self.Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subdivision">
+        <PropertyRef Name="SubdivisionID" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="EmployeeSubdivision" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Request_Status">
+    <End Role="Status" Type="Self.Status" Multiplicity="1" />
+    <End Role="Request" Type="Self.Request" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Status">
+        <PropertyRef Name="StatusID" />
+      </Principal>
+      <Dependent Role="Request">
+        <PropertyRef Name="RequestStatus" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Request_Subdivision">
+    <End Role="Subdivision" Type="Self.Subdivision" Multiplicity="1" />
+    <End Role="Request" Type="Self.Request" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subdivision">
+        <PropertyRef Name="SubdivisionID" />
+      </Principal>
+      <Dependent Role="Request">
+        <PropertyRef Name="RequestSubdivision" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Request_Visitor">
+    <End Role="Visitor" Type="Self.Visitor" Multiplicity="1" />
+    <End Role="Request" Type="Self.Request" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Visitor">
+        <PropertyRef Name="VisitorID" />
+      </Principal>
+      <Dependent Role="Request">
+        <PropertyRef Name="RequestVisitor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Хранилище NSDriveContainer">
+    <EntitySet Name="Attendance" EntityType="Self.Attendance" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="BlackList" EntityType="Self.BlackList" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Employee" EntityType="Self.Employee" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Request" EntityType="Self.Request" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Result" EntityType="Self.Result" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Status" EntityType="Self.Status" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Subdivision" EntityType="Self.Subdivision" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Visitor" EntityType="Self.Visitor" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Attendance_Employee" Association="Self.FK_Attendance_Employee">
+      <End Role="Employee" EntitySet="Employee" />
+      <End Role="Attendance" EntitySet="Attendance" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Attendance_Request" Association="Self.FK_Attendance_Request">
+      <End Role="Request" EntitySet="Request" />
+      <End Role="Attendance" EntitySet="Attendance" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Attendance_Result" Association="Self.FK_Attendance_Result">
+      <End Role="Result" EntitySet="Result" />
+      <End Role="Attendance" EntitySet="Attendance" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BlackList_Visitor" Association="Self.FK_BlackList_Visitor">
+      <End Role="Visitor" EntitySet="Visitor" />
+      <End Role="BlackList" EntitySet="BlackList" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Employee_Subdivision" Association="Self.FK_Employee_Subdivision">
+      <End Role="Subdivision" EntitySet="Subdivision" />
+      <End Role="Employee" EntitySet="Employee" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Request_Status" Association="Self.FK_Request_Status">
+      <End Role="Status" EntitySet="Status" />
+      <End Role="Request" EntitySet="Request" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Request_Subdivision" Association="Self.FK_Request_Subdivision">
+      <End Role="Subdivision" EntitySet="Subdivision" />
+      <End Role="Request" EntitySet="Request" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Request_Visitor" Association="Self.FK_Request_Visitor">
+      <End Role="Visitor" EntitySet="Visitor" />
+      <End Role="Request" EntitySet="Request" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
